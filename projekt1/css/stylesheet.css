@@ -179,6 +179,11 @@ h3 {
     width: 33.3%;
     padding: 50px;
     text-align:center;
+    font-size: 24px;
+}
+
+#features p {
+    font-size: 1.5em;
 }
 
 .box i {
@@ -285,4 +290,62 @@ h3 {
 i {
     height: 50px;
     width: 50px;
+}
+
+body {
+    font-family: Aria, sans-serif;
+    background: grey;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.big {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: none;
+}
+@media(max-width: 500px)
+{
+    body {
+        background: red;
+    }
+    #smartphone {
+        display: block;
+    }
+}
+@media(max-width: 501px) and (min-width: 768px)
+{
+    body {
+        background: green;
+    }
+    #tablet {
+        display: block;
+    }
+}
+@media(max-width: 769px) and (min-width: 1200px)
+{
+    body {
+        background: blue;
+    }
+    #normal {
+        display: block;
+    }
+}
+@media(max-width: 1201px)
+{
+    body {
+        background: black;
+    }
+    #widescreen {
+        display: block;
+    }
+}
+@media (max-height: 500px) {
+    body {
+        background: orange;
+    }
+    #landscape {
+        display: block;
+    }
 }
